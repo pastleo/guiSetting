@@ -28,6 +28,9 @@ if [ -x $0 ]; then
   homeshick link $repo_name
 else
   # executed from curl or wget
-  homeshick clone https://github.com/pastleo/dotSetting.git
+  homeshick clone https://github.com/pastleo/guiSetting.git
 fi
 
+echo "run the following command to deploy system service:"
+echo "  homeshick cd guiSetting"
+echo "  sudo rsync -rv etc/ /etc/"
