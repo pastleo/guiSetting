@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Exec=sudo /bin/systemctl restart synergy@pastleo
+Name=Start Synergy Service
+GenericName=Start Synergy Service
+Comment=Start Synergy Service
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Categories=Application;System;
+Icon=synergy

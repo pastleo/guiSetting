@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Exec=sudo /bin/systemctl stop synergy@pastleo
+Name=Stop Synergy Service
+GenericName=Stop Synergy Service
+Comment=Stop Synergy Service
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Categories=Application;System;
+Icon=synergy

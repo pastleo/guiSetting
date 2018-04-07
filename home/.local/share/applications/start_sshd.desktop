@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Exec=sudo /bin/systemctl restart sshd
+Name=Start SSH Service
+GenericName=Start SSH Service
+Comment=Start SSH Service
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Categories=Application;System;
+Icon=network-card

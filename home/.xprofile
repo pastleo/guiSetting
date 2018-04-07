@@ -1,0 +1,4 @@
+
+# start ibus from kde
+ibus-daemon -drx
+#export QT_IM_MODULE=qtvirtualkeyboard
