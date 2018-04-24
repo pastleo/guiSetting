@@ -1,5 +1,5 @@
 [Background]
-Color=255,255,221
+Color=236,255,228
 
 [BackgroundFaint]
 Color=255,255,243
@@ -80,7 +80,7 @@ Color=168,168,168
 Color=240,240,240
 
 [Foreground]
-Color=36,72,47
+Color=0,74,27
 
 [ForegroundFaint]
 Color=64,93,73
