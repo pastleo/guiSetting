@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
-Exec=sh -c "sudo /bin/systemctl stop synergy@$USER"
+Exec=sh -c "gksudo /bin/systemctl stop synergy@$USER"
 Name=Stop Synergy Service
 GenericName=Stop Synergy Service
 Comment=Stop Synergy Service

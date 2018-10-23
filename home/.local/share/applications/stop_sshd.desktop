@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
-Exec=sudo /bin/systemctl stop sshd
+Exec=gksudo /bin/systemctl stop sshd
 Name=Stop SSH Service
 GenericName=Stop SSH Service
 Comment=Stop SSH Service

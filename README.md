@@ -1,6 +1,12 @@
 guiSetting
 ==========
 
+## Requirements
+
+```
+yay -S gksu
+```
+
 ## How to install
 
 Using curl:

@@ -7,3 +7,6 @@ Name=Past
 Parent=FALLBACK/
 TerminalColumns=120
 TerminalRows=30
+
+[Interaction Options]
+MouseWheelZoomEnabled=false

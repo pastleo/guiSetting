@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
-Exec=sh -c "sudo /bin/systemctl restart synergy@$USER"
+Exec=sh -c "gksudo /bin/systemctl restart synergy@$USER"
 Name=Start Synergy Service
 GenericName=Start Synergy Service
 Comment=Start Synergy Service

@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
-Exec=sudo /bin/systemctl restart sshd
+Exec=gksudo /bin/systemctl restart sshd
 Name=Start SSH Service
 GenericName=Start SSH Service
 Comment=Start SSH Service
