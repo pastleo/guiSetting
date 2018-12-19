@@ -3,7 +3,7 @@
 Name=Virtual Machine Manager (via gksudo)
 Comment=Manage virtual machines via gksudo
 Icon=virt-manager
-Exec=gksudo sh -c 'systemctl start libvirtd; virt-manager'
+Exec=gksudo "sh -c 'systemctl start libvirtd; virt-manager'"
 Type=Application
 Terminal=false
 Categories=System;

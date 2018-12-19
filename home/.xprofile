@@ -5,3 +5,10 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 ibus-daemon -drx
 
+# ================================================
+# local env
+# ================================================
+
+if [ -f ~/.x-local-env ]; then
+    source ~/.x-local-env
+fi
