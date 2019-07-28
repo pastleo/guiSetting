@@ -89,6 +89,7 @@ Color=170,245,194
 Color=125,244,132
 
 [General]
+Blur=false
 Description=PastLeo Colors Dark
-Opacity=0.9
+Opacity=0.84
 Wallpaper=
