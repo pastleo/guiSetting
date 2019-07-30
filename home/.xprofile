@@ -5,6 +5,9 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 ibus-daemon -drx
 
+# screen rotator
+export DEFAULT_AUTO_ROTATION_OFF=true
+
 # ================================================
 # local env
 # ================================================
