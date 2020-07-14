@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=pastleo
-Font=Source Code Pro,9,-1,5,50,0,0,0,0,0,Regular
+Font=Source Code Pro,9,-1,5,57,0,0,0,0,0,Medium
 
 [General]
 Name=Past
