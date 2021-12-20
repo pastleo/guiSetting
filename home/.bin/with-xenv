@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ ! -t 1 ]; then
+  # stdout is not a tty. Send all output to syslog.
+  coproc logger --tag "${PROG}"
+  exec >&${COPROC[1]} 2>&1
+fi
+
+if [ -z $XENV_SUPPLIED ]; then
+  if [ -f "/tmp/.x$(whoami)-env" ]; then
+    . "/tmp/.x$(whoami)-env"
+  else
+    echo "xenv tmp file not exists, user may have not logged in GUI yet, exiting..." >&2
+    exit 1
+  fi
+fi
+
+exec $@
