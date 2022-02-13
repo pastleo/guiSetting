@@ -17,7 +17,7 @@ Color=26,26,26
 Color=117,117,117
 
 [Color0Intense]
-Color=75,75,75
+Color=184,184,184
 
 [Color1]
 Color=213,113,102
@@ -93,6 +93,7 @@ Color=125,244,132
 
 [General]
 Blur=false
+ColorRandomization=false
 Description=PastLeo Colors Dark
 Opacity=0.84
 Wallpaper=
