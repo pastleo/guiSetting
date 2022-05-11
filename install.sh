@@ -31,8 +31,3 @@ else
   homeshick clone https://github.com/pastleo/guiSetting.git
 fi
 
-echo "run the following command to deploy system service:"
-echo "  homeshick cd guiSetting"
-echo "  sudo rsync -rv etc/ /etc/"
-echo "  sudo systemctl daemon-reload"
-

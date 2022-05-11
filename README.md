@@ -1,11 +1,7 @@
 guiSetting
 ==========
 
-## Requirements
-
-```
-yay -S gksu
-```
+[Homeshick](https://github.com/andsens/homeshick) is used to manage my guiSetting
 
 ## How to install
 
