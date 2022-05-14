@@ -1,0 +1,15 @@
+patch:
+  schema_list:
+    - schema: bopomofo_tw
+    - schema: luna_pinyin_tw
+  ascii_composer/good_old_caps_lock: false
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: commit_text
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
+
+# rime config guide: https://github.com/rime/home/wiki/CustomizationGuide
+# configure input type: https://gist.github.com/lotem/2309739
+# shift/caplock behavior: https://gist.github.com/lotem/2981316
