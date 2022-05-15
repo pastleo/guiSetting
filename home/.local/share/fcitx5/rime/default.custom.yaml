@@ -2,6 +2,8 @@ patch:
   schema_list:
     - schema: bopomofo_tw
     - schema: luna_pinyin_tw
+  menu:
+    page_size: 7
   ascii_composer/good_old_caps_lock: false
   ascii_composer/switch_key:
     Caps_Lock: noop
