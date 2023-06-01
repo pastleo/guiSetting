@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Firefox Profile
-Icon=firefox
-Exec=firefox -p
-StartupNotify=false
