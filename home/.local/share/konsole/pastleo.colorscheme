@@ -92,8 +92,12 @@ Color=170,245,194
 Color=125,244,132
 
 [General]
+Anchor=0.5,0.5
 Blur=false
 ColorRandomization=false
 Description=PastLeo Colors Dark
+FillStyle=Tile
 Opacity=0.84
 Wallpaper=
+WallpaperFlipType=NoFlip
+WallpaperOpacity=1

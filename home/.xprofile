@@ -1,6 +1,9 @@
-
-# screen rotator
-export DEFAULT_AUTO_ROTATION_OFF=true
+# fcitx5 input framework
+if [ -f /usr/bin/fcitx5 ]; then
+  export GTK_IM_MODULE=fcitx
+  export QT_IM_MODULE=fcitx
+  export XMODIFIERS=@im=fcitx
+fi
 
 # ================================================
 # local env
