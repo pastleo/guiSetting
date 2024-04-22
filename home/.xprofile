@@ -12,12 +12,3 @@ fi
 if [ -f ~/.xprofile.local ]; then
   . ~/.xprofile.local
 fi
-
-# ================================================
-# for cron/udev scripts to get X environments
-# ================================================
-
-export XENV_SUPPLIED=true
-env | sed 's/^/export /' > "/tmp/.x$(whoami)-env"
-# use this helper to run scripts that require X environments:
-# /home/pastleo/.bin/with-xenv /path/to/script
